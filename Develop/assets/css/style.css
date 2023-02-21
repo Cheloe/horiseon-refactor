@@ -8,7 +8,8 @@ body {
     background-color: #d9dcd6;
 }
 
-/* Header -------------------------------------*/
+/* --- Header -------------------------------*/
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -51,15 +52,16 @@ p {
     font-size: 16px;
 }
 
-/* Hero Image -------------------------------------- */
+/* --- Hero Image ------------------------------- */
 
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    position: center;
+    object-fit: cover;
 }
 
+/* --- Main Content ------------------------------- */
 
 main {
     width: 75%;
@@ -95,31 +97,23 @@ main {
     margin-left: 25px;
 }
 
+/* --- Side Bar ------------------------------- */
+
 aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
     float: right;
-    width: 20%;
+    width: 21%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
 .benefit {
-    margin-bottom: 32px;
+    margin-bottom: 50px;
     color: #ffffff;
 }
-
-/* .benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-} */
 
 .benefit h3 {
     margin-bottom: 10px;
@@ -131,6 +125,8 @@ aside {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* --- Footer ------------------------------- */
 
 footer {
     padding: 30px;
